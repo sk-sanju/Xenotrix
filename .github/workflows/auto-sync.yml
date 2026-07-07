@@ -1,0 +1,29 @@
+name: Sync Fork to Main Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add Original Repository
+        run: |
+          git remote add upstream https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/Xenotrix-Technologies/Xenotrix.git
+
+      - name: Push to Original Repository
+        run: |
+          git push upstream main
