@@ -25,5 +25,7 @@ jobs:
           git remote add upstream https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/Xenotrix-Technologies/Xenotrix.git
 
       - name: Push to Original Repository
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git push upstream main
+          git push https://x-access-token:${PAT_TOKEN}@github.com/Xenotrix-Technologies/Xenotrix.git HEAD:main
