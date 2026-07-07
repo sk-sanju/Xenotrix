@@ -1,98 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Home -->
   <url>
     <loc>https://xenotrix.in/</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
-
-  <!-- Main Pages -->
   <url>
     <loc>https://xenotrix.in/about.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
-
   <url>
     <loc>https://xenotrix.in/service.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
-  
-  <url>
-    <loc>https://xenotrix.in/industries.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <url>
     <loc>https://xenotrix.in/portfolio.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
-
+  <url>
+    <loc>https://xenotrix.in/industries.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://xenotrix.in/contact.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://xenotrix.in/policyprivacy.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
   </url>
-
-  <!-- Service Details -->
+  <!-- Service Pages -->
   <url>
     <loc>https://xenotrix.in/services/web-development.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.9</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://xenotrix.in/services/app-development.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.9</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://xenotrix.in/services/ai-solutions.html</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://xenotrix.in/services/data-analytics.html</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://xenotrix.in/services/ui-ux-design.html</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://xenotrix.in/services/backend-development.html</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://xenotrix.in/services/automation.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.9</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://xenotrix.in/services/project-center.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.9</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://xenotrix.in/services/saas-development.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.9</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://xenotrix.in/services/digital-marketing.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <priority>0.9</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
-
 </urlset>
