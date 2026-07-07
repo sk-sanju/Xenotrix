@@ -143,15 +143,20 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(15, 23, 42, 0.8);
+  --background-color: rgba(15, 23, 42, 0);
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+  padding: 15px 30px;
   transition: all 0.5s;
-  z-index: 997;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--glass-border);
+  z-index: 1030;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0);  
+  border-radius: 50px;
+  margin: 20px auto 0 auto;
+  width: 95%;
+  max-width: 1200px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .header .logo {
@@ -3391,3 +3396,13 @@ body.mobile-nav-active .header {
   transform: translateY(-2px);
 }
 /* ===== End Footer ===== */
+
+/* Sidebar scroll customization */
+.custom-sidebar-scroll {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+}
+.custom-sidebar-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

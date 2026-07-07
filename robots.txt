@@ -1,22 +1,4 @@
-# ===============================
-# robots.txt for Xenotrix Technologies
-# Website: https://xenotrix.in
-# ===============================
-
 User-agent: *
 Allow: /
 
-# Disallow unnecessary or private files
-Disallow: /LICENSE
-Disallow: /README.md
-Disallow: /llm.txt
-Disallow: /*.md$
-
-# Sitemap location
 Sitemap: https://xenotrix.in/sitemap.xml
-
-# Crawl-delay (optional, prevents overloading your server)
-Crawl-delay: 10
-
-# End of file
-# ===============================
