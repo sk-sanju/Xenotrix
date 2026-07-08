@@ -44,6 +44,10 @@ jobs:
       - name: Fetch Original Repository
         run: |
           git fetch upstream
+      
+      - name: Merge Original Repository
+        run: |
+          git merge upstream/main --no-edit
 
       - name: Push to Original Repository
         env:
