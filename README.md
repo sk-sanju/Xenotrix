@@ -13,7 +13,7 @@
 ## Products
 - **XenoCRM:** Advanced Customer Relationship Management system designed to streamline sales and marketing.
 - **XenoFin:** Comprehensive financial and accounting solution for modern enterprises.
-- **XenoHR:** Next-generation Human Resources management platform (Upcoming).
+
 
 ## Contact Us
 - **Website:** [https://xenotrix.in](https://xenotrix.in)
