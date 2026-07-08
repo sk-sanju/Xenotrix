@@ -35,6 +35,12 @@ jobs:
           fi
           echo "PAT_TOKEN is available."
 
+      - name: Remove workflow files
+        run: |
+          rm -rf .github/workflows
+          git add -A
+          git commit -m "Remove workflow files before sync" || true
+
       - name: Add Original Repository
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
