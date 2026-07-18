@@ -1,4 +1,4 @@
-# Xenotrix Technologies
+# Xenotrix Technologies - Innovative for Future
 
 **Xenotrix Technologies** is a leading global provider of enterprise-grade digital services, specializing in web development, mobile app development, data analytics, UI/UX design, and AI & automation solutions. We build scalable, high-performance ecosystems designed to accelerate business growth.
 
