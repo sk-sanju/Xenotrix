@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
             </button>
             <div id="chatbot-window">
                 <div id="chatbot-header">
-                    <span>Xenotrix Assistant</span>
+                    <span>Xeno</span>
                     <button id="chatbot-close">&times;</button>
                 </div>
                 <div id="chatbot-messages">
                     <div class="chat-message bot">
-                        Hello! I am the Xenotrix Assistant. How can I help you learn about our technologies today?
+                        Hello! I am the Xeno. How can I help you learn about our technologies today?
                     </div>
                 </div>
                 <div id="chatbot-presets">
